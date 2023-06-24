@@ -1,0 +1,73 @@
+{% extends 'gpt_layouts.html' %} 
+
+{%block content %}
+
+<div class="formbold-form-wrapper">
+  <label for="name" class="formbold-form-label"
+  ><h5>
+    <i>
+      welcome to this site, in this site you will prompt the AI how to
+      create your website depending on your requirement. below there is a
+      section for you to input how each section of your website you need to
+      look like.
+    </i>
+  </h5>
+</label>
+  <form action="#" method="POST">
+    <div class="formbold-mb-5">
+
+    </div>
+    <div class="formbold-mb-5">
+      <label for="name" class="formbold-form-label"> Header Section </label>
+      <input
+        type="text"
+        name="header"
+        id="name"
+        placeholder="Header Section"
+        class="formbold-form-input"
+      />
+    </div>
+
+    <div class="formbold-mb-5">
+      <label for="email" class="formbold-form-label"> Hero Section </label>
+      <input
+        type="text"
+        name="hero"
+        id="email"
+        placeholder="Enter your Hero Section"
+        class="formbold-form-input"
+      />
+    </div>
+
+    <div class="formbold-mb-5">
+      <label for="subject" class="formbold-form-label">
+        Main Content Section
+      </label>
+      <input
+        type="text"
+        name="body"
+        id="subject"
+        placeholder="Enter your Main Content Section"
+        class="formbold-form-input"
+      />
+    </div>
+
+    <div class="formbold-mb-5">
+      <label for="subject" class="formbold-form-label"> Footer Section </label>
+      <input
+        type="text"
+        name="footer"
+        id="subject"
+        placeholder="Enter your Footer Section"
+        class="formbold-form-input"
+      />
+    </div>
+
+    <div>
+      <button class="formbold-btn">Submit</button>
+    </div>
+  </form>
+</div>
+
+{%endblock content%}
+

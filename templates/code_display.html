@@ -1,0 +1,43 @@
+{% extends 'gpt_layouts.html' %} 
+    {%block content %}
+
+    <p><i>
+        <pre>
+            <code id="codeBlock">
+
+        {{generated_code}}
+    </code>
+</pre>
+        
+
+    </i></p>
+    {%if title == "html"%}
+    <button onclick="exportAsFile('codeBlock', 'mycode.html', 'text/html')">Export as HTML File</button>
+    {% elif title=="python"%}
+    <button onclick="exportAsFile('codeBlock', 'mycode.py', 'text/html')">Export as Python File</button>
+    {%elif title=="ruby"%}
+    <button onclick="exportAsFile('codeBlock', 'mycode.rb', 'text/html')">Export as Ruby File</button>
+    {%elif title=="help"%}
+    <button onclick="exportAsFile('codeBlock', 'help.txt', 'text/html')">Export as TEXT File</button>
+    {% endif %}
+    <script>
+        function exportAsFile(elementId, fileName, fileType) {
+          const element = document.getElementById(elementId);
+          const codeContent = element.innerText;
+    
+          const blob = new Blob([codeContent], { type: fileType });
+          const url = URL.createObjectURL(blob);
+    
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = fileName;
+          link.click();
+    
+          URL.revokeObjectURL(url);
+        }
+      </script>
+
+    {%endblock content%}
+
+
+    

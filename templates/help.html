@@ -1,0 +1,28 @@
+{% extends 'gpt_layouts.html' %} 
+    {%block content %}
+
+    <div class="container">
+        
+        <form action="#" method="POST">
+            <div class="formbold-mb-5">
+            <label for="dropdown">Select an option:</label>
+              <select id="dropdown" name="dropdown">
+                  <option value="Python TKinter library">Python TKinter</option>
+                  <option value="Python Flask library">Python Flask</option>
+                  <option value="Python kyve library">Python kyve</option>
+                  <option value="Ruby on Rails library">Ruby on Rails</option>
+                  <option value="Ruby on Sinatra library">Ruby on Sinatra</option>
+                  <option value="Ruby on Hanami library">Ruby on Hanami</option>
+                  <option value="HTML library">HTML</option>
+                  <option value="CSS library">CSS</option>
+                  <option value="PHP library">PHP</option>
+              </select>
+            
+            </div>    
+            <div>
+                <button class="formbold-btn">Submit</button>
+              </div>
+            </form>
+          </div>
+
+    {% endblock%}
