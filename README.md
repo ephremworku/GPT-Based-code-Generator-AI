@@ -25,8 +25,8 @@
 <p>Follow these steps to get started with the project:</p>
 
 <ol>
-  <li>Clone the repository: <code>git clone [https://github.com/your-username/your-repository.git](https://github.com/ephremworku/GPT-Based-code-Generator-AI.git)</code></li>
-  <li>Navigate to the project directory: <code>cd your-repository</code></li>
+  <li>Clone the repository: <code>git clone https://github.com/ephremworku/GPT-Based-code-Generator-AI.git</code></li>
+  <li>Navigate to the project directory: <code>cd GPT-Based-code-Generator-AI</code></li>
   <li>Install dependencies: <code>pip install -r requirments.txt</code></li>
   <li>Install dependencies: <code>run the application</code></li>
 
