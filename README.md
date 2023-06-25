@@ -25,30 +25,23 @@
 <p>Follow these steps to get started with the project:</p>
 
 <ol>
-  <li>Clone the repository: <code>git clone https://github.com/your-username/your-repository.git</code></li>
+  <li>Clone the repository: <code>git clone [https://github.com/your-username/your-repository.git](https://github.com/ephremworku/GPT-Based-code-Generator-AI.git)</code></li>
   <li>Navigate to the project directory: <code>cd your-repository</code></li>
-  <li>Install dependencies: <code>npm install</code></li>
+  <li>Install dependencies: <code>pip install -r requirments.txt</code></li>
+  <li>Install dependencies: <code>run the application</code></li>
+
 </ol>
 
-<h2>Usage</h2>
 
-<ol>
-  <li>Configure the project by modifying the configuration file according to your requirements.</li>
-  <li>Run the application: <code>npm start</code></li>
-  <li>Access the web application through the provided URL.</li>
-</ol>
 
 <h2>Contributing</h2>
 
 <p>Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.</p>
 
-<h2>License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
 <h2>Contact</h2>
 
-<p>For any inquiries or further information, feel free to reach out to me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+
 
 <hr>
 
